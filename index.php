@@ -3,7 +3,7 @@
  <html>
  		<head>
  			<title>Oluwatosin Faith Kolawole Resume</title> 
-<link rel="stylesheet" type="text/css" href="css/design.css">
+<link rel="stylesheet" type="text/css" href="design.css">
  		</head>
 
  <body>
