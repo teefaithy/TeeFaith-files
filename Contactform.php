@@ -12,6 +12,5 @@ if (isset($_POST['submitButton'])){
 	
 	mail(mailTo, $title, $txt, $headers);
 	header("Location: oluwatosin.html?mailsend");
-	
-	echo "script type='text/javascript'>alert('Thanks for contacting me. I'll get back soon')</script>";
+
 }
