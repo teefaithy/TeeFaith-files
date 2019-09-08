@@ -1,0 +1,93 @@
+h1{
+	color:blue;
+}
+
+h3{
+	color:grey;
+}
+
+ul{
+	list-style-type:none;
+	text-align:right;
+}
+
+body{
+	background-color:white;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.6em;
+	margin:0;
+}
+
+.container{
+	width:50%;
+	margin:auto;
+}
+
+
+.box-1{
+	border:5px blue solid;
+	border-width:3px;
+	border-style:dotted;
+
+	margin:20px;
+	width:40%;
+	padding:20px;
+}
+
+.box-2{
+	border:5px blue solid;
+	border-width:3px;
+	border-style:double;
+
+	margin: 20px;
+	padding: 20px;
+}
+
+#contactme{
+    width: 40%;
+}
+
+
+.form-control{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    background: #f7f7f7;
+}
+
+.btn-blue{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #ff0000;
+    border-radius: 5px;
+}
+
+.red{
+    color: red;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+form{
+    margin-bottom: 10vh;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    font-weight: 800;
+}
