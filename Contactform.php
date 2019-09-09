@@ -12,5 +12,17 @@ if (isset($_POST['submitButton'])){
 	
 	mail($mailTo, $title, $txt, $headers);
 	header("Location: index.php?mailsend");
+	
+		// send email 
+$success = mail($mailTo, $title, $txt, $headers "From: <$EmailFrom>");
+header("Location: index.php?mailsend");
+
+// redirect to success page 
+if ($success){
+   print "<meta http-equiv=\"refresh\"   content=\"0;URL=contactthanks.php\">";
+}
+else{
+   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+}
 
 }
