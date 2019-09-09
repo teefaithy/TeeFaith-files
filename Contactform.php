@@ -11,6 +11,6 @@ if (isset($_POST['submitButton'])){
 	$txt = "You have received an e-mail from ".$name.".\n\n".$message;
 	
 	mail(mailTo, $title, $txt, $headers);
-	header("Location: oluwatosin.html?mailsend");
+	header("Location: index.php?mailsend");
 
 }
