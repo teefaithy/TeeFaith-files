@@ -153,6 +153,7 @@ I create content on Instagram and Twitter via the social account <a href="http:/
                 <td>
                     <h1>CONTACT ME</h1>
                 </td>
+		    <img src="https://res.cloudinary.com/teefaithy/image/upload/v1567987610/contactme_d9p3eu.png" width="180" height="auto" alt="contact me image">
             </tr>
             <tr class="form-group">
                 <td>
